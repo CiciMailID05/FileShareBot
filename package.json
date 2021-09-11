@@ -1,0 +1,11 @@
+{
+  "name": "project-youtube-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "azkadev",
+  "license": "ISC",
+  "dependencies": {
+    "tele-bot-api": "^0.1.0"
+  }
+}

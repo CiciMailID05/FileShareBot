@@ -1,0 +1,59 @@
+{
+    "name": "Files-store-telegram-bot",
+    "description": "desc your apps",
+    "repository": "https://github.com/guidetutorial/files-store-telegrambot-free",
+    "logo": "https://camo.githubusercontent.com/fb51ace3ca286c5dc04bfd2469c9823090df349af999b285235cd7278cd8a0d9/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f652f65632f4865726f6b755f6c6f676f2e737667",
+    "keywords": ["file-store-telegram"],
+    "env": {
+        "NAME_APP": {
+          "description": "name project",
+          "required": true
+        },
+        "TOKEN_BOT": {
+          "description": "Token bot dari bot father.",
+          "required": true
+        },
+        "username_bot": {
+          "description": "isi",
+          "required": true
+        },
+        "name_bot": {
+          "description": "isi",
+          "required": true
+        },
+        "name_admin": {
+          "description": "isi",
+          "required": true
+        },
+        "id_admin": {
+          "description": "isi",
+          "required": true
+        },
+        "username_channel": {
+          "description": "isi",
+          "required": true
+        },
+        "title_channel": {
+          "description": "isi",
+          "required": true
+        },
+        "subscribe_username_channel": {
+          "description": "isi",
+          "required": true
+        },
+        "subscribe_id_channel": {
+          "description": "isi",
+          "required": true
+        },
+        "photo_id_bot": {
+          "description": "isi",
+          "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ],
+    "stack": "heroku-20"
+}
